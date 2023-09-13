@@ -1,0 +1,23 @@
+.headerLinks {
+    display: flex;
+  }
+  
+  .headerLinksStyle {
+    list-style: none;
+  }
+  
+  .headerLink {
+    padding: 20px;
+    display: inline-block;
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: color 0.3s;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }

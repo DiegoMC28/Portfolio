@@ -1,0 +1,17 @@
+.headerLogoContent {
+    display: flex;
+    align-items: center;
+  }
+  .profileImage {
+    max-width: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  
+  .profileImageName {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 10px;
+  }

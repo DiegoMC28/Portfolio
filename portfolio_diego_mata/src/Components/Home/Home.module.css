@@ -1,0 +1,90 @@
+.home {
+  color: #fff;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(53, 53, 53) 100%);
+  background-position: center;
+  height: 100vh;
+  min-height: 60rem;
+  max-height: 120rem;
+  position: relative;
+}
+@media screen and (width < 1400px) {
+  .home {
+    min-height: 45rem;
+  }
+}
+
+.homeContent {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90rem;
+  width: 92%;
+}
+
+.homeHeader {
+  animation-duration: 5s;
+  animation-name: appear;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.homeInfo {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+.textInfo {
+  animation-duration: 5s;
+  animation-name: appear;
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-align: center;
+  max-width: 650px;
+  line-height: 1.6;
+}
+
+@keyframes appear {
+  from {
+    color: transparent;
+  }
+
+  to {
+    color: #fff;
+    margin-left: 0%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.proyectsButtom {
+  animation-duration: 2s;
+  animation-name: slidein;
+  width: 250px;
+  height: 70px;
+  margin-top: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(98, 0, 255);
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+}
