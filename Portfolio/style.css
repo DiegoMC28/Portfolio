@@ -1,0 +1,133 @@
+body {
+  box-sizing: border-box;
+  position: relative;
+  line-height: 1.5;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  background: #ffffff;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+.headerLogoContent {
+  display: flex;
+  align-items: center;
+}
+.profileImage {
+  max-width: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.profileImage-name {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+.headerMain {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+.headerLinks {
+  display: flex;
+}
+
+.headerLinks-style {
+  list-style: none;
+}
+
+.headerLink {
+  padding: 20px;
+  display: inline-block;
+  font-size: 1rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home {
+  box-sizing: inherit;
+  font-family: inherit;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: linear-gradient(
+    to right,
+    rgba(103, 237, 255, 0.61),
+    rgb(255, 255, 255)
+  );
+  background-position: center;
+
+  min-height: 80rem;
+  max-height: 120rem;
+  position: relative;
+}
+
+.homeContent {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90rem;
+  width: 92%;
+}
+
+.homeHeader {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #111;
+  font-weight: 800;
+}
+
+.homeInfo {
+  color: black;
+  margin: 3rem auto 0 auto;
+  max-width: 80rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+.textInfo {
+  color: #333;
+  font-size: 2.2rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6;
+}
